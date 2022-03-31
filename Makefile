@@ -14,5 +14,8 @@ all: $(TARGET)
 $(TARGET): src/$(TARGET).cpp
 			$(CC) $(CFLAGS) -o $(TARGET) src/$(TARGET).cpp
 
+check:
+			./$(TARGET)
+
 clean:
 			$(RM) $(TARGET)
