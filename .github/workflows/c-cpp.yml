@@ -19,5 +19,9 @@ jobs:
       run: make
     - name: make check
       run: make check
+    - name: make build test
+      run: make build_test
+    - name: make run test
+      run: make run_test
     #- name: make distcheck
     #  run: make distcheck
