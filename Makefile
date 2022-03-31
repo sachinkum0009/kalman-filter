@@ -25,3 +25,6 @@ build_test:
 
 run_test:
 			./$(TARGET)Test.out
+
+docs:
+			doxygen doc/Doxyfile
