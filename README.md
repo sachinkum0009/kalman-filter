@@ -1,2 +1,2 @@
-# kalman-filter-opencv
-OpenCV Kalman Filter
+# kalman-filter
+Kalman Filter
